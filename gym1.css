@@ -1,0 +1,296 @@
+*{
+    margin: 0; padding: 0;box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color:black ;
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,90% 90%,0% 100%);
+}
+
+nav{ 
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+#blue{
+    color: #74b9ff;
+}
+nav.h4{
+    margin-right: 28px;
+    font-size: 55px;
+    font-weight: 700;
+}
+.menu a{
+    text-decoration: none;
+     color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: forestgreen; ;
+
+}
+.left{
+    flex-basis: 50%;
+}
+.right{
+    text-align:left;
+    color: forestgreen;
+    margin-left: 20px;
+}
+.right h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(74, 99, 151);
+    margin-top:90px;
+    margin-left: 20px;
+}
+.right h2{
+    margin-top: 40px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+h1:hover{
+    color:#74b9ff;
+}
+.right p{
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 20px;
+    width: 400px;
+    height: 150px;
+    font-size: 20px;
+
+}
+.btn{
+    background: transparent;
+    border-radius: 8px;
+    color:blue;
+    padding: 10px 20px;
+    border: 1px solid navy;
+
+
+}
+.btn a{
+    font-size: 25px;
+    color:white;
+    
+}
+
+
+.about{
+    padding: 100px 0px;
+
+}
+.about-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-left-col{
+    flex-basis: 50%; 
+    max-width: 400px;
+    margin: auto;
+}
+
+.about-right-col{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.about-rigth-col img{
+    height: 400px;
+    width: 500px;
+}
+.about-left-col h1{
+    font-size: 30px;
+    
+}
+.about-left-col p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 15px 0px ;
+}
+.btn1{
+    padding: 10px;
+    margin: 10px 0px;
+    color: white;
+    border: none;
+    background-color:blueviolet ;
+    
+}
+.signup{
+    padding: top 50px; 
+    padding-bottom: 20px;
+    background: rgba(0,0,0,0.03);
+    
+}
+.signup-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup-left-row{
+    flex-basis: 50%;
+    text-align: center;
+}
+.signup-left-row img{
+    width: 300px;
+    height: 400px;
+}
+.signup-right-col{
+    flex-basis: 50%;
+}
+.signup-right-col h1{
+    font-size: 80px;
+
+}
+.signup-right-col h2{
+    font-size: 30px;
+    letter-spacing: 50px;
+    color:rgba(0,0,0,0.0.3);
+    margin: 10px 0px ;
+    
+}
+.btn2{
+    font-size: 20px;
+    
+    background-color: royalblue;
+    padding: 10px;
+    color: white;
+    border: none;
+
+}
+.members{
+   padding: 100px;
+}
+ .member-row{
+
+    font-size: 25px;
+    align-items: center;
+} 
+.member-row h1{
+    padding-top: 25px;
+    font-size: 27px;
+    text-align: center;
+    
+}
+.member-row h2{
+
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    
+
+}
+.member-say{
+    text-align:center;
+    padding-top: 25px;
+    width: 50%;
+    margin: auto;
+}
+.member-say img{
+    height: 150px;
+    width: 200px;
+}
+.member-say h3{
+    font-weight: bold;
+}
+.member-say p{
+    font-size: 16px;
+    margin: 20px 0px;
+    font-family:fantasyS;
+}
+.list-inline {
+    display: inline-block;
+    height: auto;
+    width: 50px;
+    font-size: 200%;
+}
+.contact{
+    padding: 30px 0px;
+
+}
+.info h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.info h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+.contact-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-left-col{
+    flex-basis: 50%;
+    padding-top: 50px;
+}
+.contact-right-col {
+    font-size: 15px;
+    max-width: 450px;
+    margin: auto;
+
+} 
+.form{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.form input[type="text"]{
+    width:70% ;
+    padding: 10px;
+    margin-bottom: 10px;  
+}
+textarea{
+    width:70% ;
+    padding: 10px;
+    margin-bottom: 10px; 
+}
+.btn3{
+    font-size: 20px;
+    background: black;
+    color: white;    
+    padding: 10px;
+    width: 60%;
+    border: none;
+}
+.btn4{
+    height: 100px;
+   max-width: 420px;
+    font-size: 30px;
+    margin-left: 200%;
+    
+}
+
+
+
+
+  
